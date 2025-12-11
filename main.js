@@ -1,4 +1,3 @@
-
 // Бургер-меню
 const navToggle = document.querySelector(".nav-toggle");
 const mainNav = document.querySelector(".main-nav");
@@ -45,7 +44,7 @@ if (yearEl) {
   yearEl.textContent = new Date().getFullYear();
 }
 
-// Заглушка для формы (чтобы не перезагружала страницу)
+// Заглушка для формы (демо-отправка)
 const contactForm = document.querySelector(".contact-form");
 if (contactForm) {
   contactForm.addEventListener("submit", (e) => {

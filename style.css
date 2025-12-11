@@ -1,10 +1,10 @@
-
 :root {
-  --bg-main: #060812;
-  --bg-alt: #0c101c;
-  --bg-card: #121627;
-  --accent: #b18a3b;
-  --accent-soft: rgba(177, 138, 59, 0.15);
+  --bg-main: #040812;
+  --bg-alt: #071223;
+  --bg-card: #0c172b;
+  --accent: #b18a3b;           /* золото из герба */
+  --accent-soft: rgba(177, 138, 59, 0.18);
+  --accent-blue: #1f78c8;      /* синий фон герба */
   --border-soft: rgba(255, 255, 255, 0.06);
   --text-main: #f5f5f7;
   --text-muted: #b7bdd0;
@@ -63,7 +63,7 @@ img {
 }
 
 .section-alt {
-  background: radial-gradient(circle at top left, #171c33 0, #050713 55%);
+  background: radial-gradient(circle at top left, #13254a 0, #040915 55%);
   border-top: 1px solid var(--border-soft);
   border-bottom: 1px solid var(--border-soft);
 }
@@ -101,7 +101,7 @@ img {
   top: 0;
   z-index: 20;
   backdrop-filter: blur(18px);
-  background: linear-gradient(to bottom, rgba(6, 8, 18, 0.96), rgba(6, 8, 18, 0.82));
+  background: linear-gradient(to bottom, rgba(4, 10, 30, 0.96), rgba(4, 10, 26, 0.9));
   border-bottom: 1px solid var(--border-soft);
 }
 
@@ -120,8 +120,8 @@ img {
 }
 
 .logo-mark {
-  width: 44px;
-  height: 44px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   background: radial-gradient(circle at 30% 20%, #f7e3aa, #b18a3b 55%, #583b0d 100%);
   display: flex;
@@ -198,8 +198,8 @@ img {
 .hero {
   padding: 72px 0 56px;
   background:
-    radial-gradient(circle at top left, rgba(177, 138, 59, 0.16), transparent 60%),
-    radial-gradient(circle at bottom right, rgba(48, 93, 196, 0.18), transparent 60%);
+    radial-gradient(circle at top left, rgba(31, 120, 200, 0.46), transparent 65%),
+    radial-gradient(circle at bottom right, rgba(2, 8, 22, 1), rgba(4, 8, 18, 1));
 }
 
 .hero-inner {
@@ -252,7 +252,7 @@ img {
   border: 1px solid var(--border-soft);
   background:
     radial-gradient(circle at 20% 0, rgba(255, 255, 255, 0.09), transparent 55%),
-    radial-gradient(circle at bottom, rgba(177, 138, 59, 0.4), rgba(6, 8, 18, 1));
+    radial-gradient(circle at bottom, rgba(31, 120, 200, 0.4), rgba(4, 8, 18, 1));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -290,7 +290,7 @@ img {
 
 .card {
   border-radius: var(--radius-lg);
-  background: linear-gradient(145deg, rgba(12, 16, 28, 0.95), rgba(8, 11, 22, 0.98));
+  background: linear-gradient(145deg, rgba(10, 16, 32, 0.97), rgba(6, 10, 24, 0.98));
   border: 1px solid var(--border-soft);
   padding: 18px 18px 16px;
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
@@ -311,7 +311,7 @@ img {
 .emphasis-box {
   border-radius: var(--radius-lg);
   padding: 16px 18px;
-  background: radial-gradient(circle at top left, var(--accent-soft), rgba(10, 13, 25, 0.98));
+  background: radial-gradient(circle at top left, rgba(31, 120, 200, 0.24), rgba(10, 13, 25, 0.98));
   border: 1px solid var(--border-soft);
 }
 
@@ -489,7 +489,7 @@ textarea {
 .site-footer {
   border-top: 1px solid var(--border-soft);
   padding: 16px 0 20px;
-  background: radial-gradient(circle at top, rgba(177, 138, 59, 0.08), rgba(3, 5, 12, 1));
+  background: radial-gradient(circle at top, rgba(31, 120, 200, 0.22), rgba(3, 5, 12, 1));
 }
 
 .footer-inner {
@@ -531,7 +531,7 @@ textarea {
     padding: 10px 16px 12px;
     flex-direction: column;
     gap: 8px;
-    background: linear-gradient(to bottom, rgba(6, 8, 18, 0.98), rgba(6, 8, 18, 0.96));
+    background: linear-gradient(to bottom, rgba(4, 10, 26, 0.98), rgba(4, 10, 26, 0.96));
     border-bottom: 1px solid var(--border-soft);
     transform: translateY(-140%);
     opacity: 0;
